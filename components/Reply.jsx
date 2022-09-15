@@ -21,7 +21,7 @@ export default function Reply(props) {
           {props.data.likeNum > 0 && (
             <div className="d-flex align-items-center gap-1">
               <img src="/like.svg" width={20}></img>
-              <span className="text-muted">10 คน</span>
+              <span className="text-muted">{props.data.likeNum} คน</span>
             </div>
           )}
         </div>
